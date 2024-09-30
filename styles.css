@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#app {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+#input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+#item-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+#submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    background-color: #45a049;
+}
+#item-list {
+    list-style-type: none;
+    padding: 0;
+}
+#item-list li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
